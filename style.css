@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oswald:wght@400;500&family=Quicksand:wght@300&family=Shadows+Into+Light&display=swap');
+
+body{
+   color: white;
+   background-image: url(/img/imagem_1.gif);
+   background-repeat: repeat;
+}
+
+.minha__foto{
+   width: 180px;
+   display: flex;
+   border-radius: 120px;
+   margin: auto;
+   border: 3px solid black;
+}
+
+.container__1{
+   background-image: url(img/sugestao.jpg);
+   width: 540px;
+   height: 340px;
+   margin: 1em;
+   border-radius: 14px;
+}
+.titulo__container__1{
+   font-family: 'Shadows Into Light', cursive;
+   font-size: 50px;
+   text-align: center;
+}
+
+.container__2{
+   width: 496px;
+    height: 506px;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: rgba(10,23,55,0.5);
+}
+
+.container__2{
+   font-family: 'Shadows Into Light', cursive;
+   font-size: 22px;
+}
+.englobar{
+   padding: 2em;
+}
+
+.descricao{
+   display: flex;
+}
+.logo__resumo{
+   margin: 0 5px 0 0 ;
+   width: 16px;
+}
+
+.subtitulo__resumo__descricao{
+   color: #95999C;
+   font-size: 16px;
+   margin: 0.4em 0;
+}
+.resumo{
+   margin: 0 0  20px 0;
+}
+
+.descricao__2{
+   display: flex;
+   align-items: center;
+}
+
+.logo__habilidades{
+   width: 16px;
+   margin: 0 5px 0 0;
+}
+
+.logo{
+   width: 16px;
+   margin: 0 8px 0 0;
+}
+.habils{
+   margin: 0.8em;
+}
+.cabeçalho{
+   display: flex;
+}
+.container__info__desktop{
+   font-family: 'Shadows Into Light', cursive;
+   padding: 2em 0 0 4em;
+   width: 900px;
+}
+.nome{
+   font-weight: 400;
+   font-size: 90px;
+}
+.nome__2{
+   font-size: 25px;
+   color: #95999C;
+   margin: 0 0 1em 0;
+}
+
+.container__info__desktop{
+   display: none;
+}
+
+.desessete{
+   font-family: 'Quicksand', sans-serif;
+   color: #95999C;
+}
+
+.container__desktop__principal{
+   display: flex;
+   height: 180px;
+}
+
+.contato__desktop{
+   width: 50%;
+   border-left: 1px solid;
+   padding: 0 0 0 1em;
+}
+.experiencia__desktop{
+   width: 50%;
+   border-left: 1px solid;
+   padding: 0 0 0 1em;
+}
+.titulo__desktop{
+   font-size: 25px;
+}
+
+.logos__desktop{
+   width: 16px;
+}
+.elemento__desktop{
+   font-size: 20px;
+   margin: 1em 0 0 0;
+}
+
+.englobar__containers{
+   display: flex;
+}
+
+.container__3{
+   display: none;
+   background-color: rgba(10,23,55,0.5);
+    width: 194px;
+    height: 517px;
+    margin: 22px;
+    padding: 1em;
+    border-radius: 8px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.titulo__container__3{
+   font-size: 26px;
+   display: flex;
+   align-items: center;
+   display: flex;
+}
+.logo__aplicacoes__3{
+   margin: 0 5px 0 0;
+   width: 24px;
+}
+.imagens__html{
+   width: 50%;
+}
+.logos__html{
+   background-color: rgba(10,23,55,0.5);
+   display: flex;
+   width: 10em;
+   padding: 1em;
+   border-radius: 8px;
+}
+.logo__js{
+   display: flex;
+   width: 10em;
+   padding: 1em;
+   background-color: rgba(10,23,55,0.5);
+   justify-content: center;
+   border-radius: 8px;
+}
+
+.titulo__html__imgs{
+   margin: 1em 0 5px 0;
+   border: 1px solid;
+   text-align: center;
+   border-radius: 24px;
+}
+
+.habilidades__apps{
+   display: flex;
+}
+.Figma{
+   display: flex;
+   justify-content: center;
+}
+
+.container__4{
+   display: none;
+   background-color: rgba(10,23,55,0.5);
+   width: 325%;
+   height: 506px;
+   margin: -500px 258px;
+   padding: 2em;
+   border-radius: 8px;
+   font-family: 'Shadows Into Light', cursive;
+   border: 1px solid;
+}
+.bloco__container__1{
+   height: 90%;
+}
+.bloco__container__2{
+   height: 10%;
+}
+.no__mei{
+   margin: 20em 0;
+}
+.titulo__ultimo__container{
+   font-size: 20px;
+   text-align: center;
+}
+.empresa{
+   text-align: center;
+   margin: 10px 0;
+   color: #95999C;
+}
+
+.imagem__divino{
+   width: 170px;
+   height: 130px;
+   border-radius: 35px;
+   margin: 7px 0;
+}
+.dois{ 
+   color: white;
+}
+.imagem__divino__2{
+   width: 145px;
+}
+.logos__fim{
+   width: 40px;
+   text-align: center;
+   margin: auto;
+}
+.container__info__mobile{
+   display: none;
+}
+
+
+@media screen and (min-width:1560px) {
+   
+   .container__info__desktop{
+      display: block;
+   }
+   .container__3{
+      display: block;
+   }
+   .container__4{
+      display: block;
+   }
+}
+
+/*Telas para mobile e Tablets*/
+
+@media screen and (max-width: 1559px){
+   .container__1{
+      width: 100%;
+      height: 100%;
+   }
+   .container__2{
+      width: 100%;
+      height: 100%;
+   }
+   .titulo__container__1{
+      font-size: 35px;
+      margin: 0 0  0.5em 0;
+   }
+   .habils{
+      font-size: 20px;
+   }
+   .container__info__mobile{
+      display: block;
+      font-family: 'Shadows Into Light', cursive;
+      text-align: center;
+   }
+   .nome__mobile{
+      font-size: 32px;
+   }
+   .nome__completo__mobile{
+      color: #95999C;
+   }
+   .contato__mobile{
+      background-color: rgba(10,23,55,0.5);
+      width: 80%;
+      height: 100%;
+      padding: 1em;
+      margin: 1em auto 1em auto;
+      border-radius: 8px;
+      border: solid 1px white;
+   }
+   .mibs{
+      font-size: 20px;
+   }
+   .info__container__contato{
+      background-color: rgba(10,23,55,0.5);
+      width: 80%;
+      height: 100%;
+      padding: 1em;
+      margin: 1em auto 1em auto;
+      border-radius: 8px;
+   }
+   .elemento__mobile{
+      text-align: start;
+      margin: 1em 0;
+   }
+   .container__mobile__2{
+      border: 1px solid;
+      border-radius: 8px;
+      padding: 1em;
+      background-color: rgba(10,23,55,0.5);
+      margin: 1.5em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .titulo__html__mobile{
+      border: 0px;
+   }
+   .titulo__container__mobile__2{
+      display: flex;
+      align-items: center;
+      font-size: 22px;
+   }
+   .mobile{
+      margin: 10px 0;
+      width: 300px;
+   }
+   .imagem__mobile{
+      width: 72px;
+      border-radius: 25px;
+      
+   }
+   .imagem__mobile__1{
+      margin: 0 1em 0 0;
+   }
+   .imagem__mobile__2{
+      border-radius: 0%;
+   }
+   .descricao__senai{
+      margin: 1em 0 0 0 ;
+   }
+   .df__maps{
+      color: #95999C;
+   }
+   .Titulo__df{
+      font-size: 22px;
+   }
+   .descricao__df{
+      margin: 1em 0;
+   }
+   .links__fim{
+      text-align: center;
+      margin: 1em 0;
+   }
+}
