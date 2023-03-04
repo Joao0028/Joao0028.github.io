@@ -1,2 +1,3 @@
-<h1>me site currículo<h1>
-Este é o meu curriculo  pessoal com  apenas HTML e CSS
+<h1>Meu site Currículo <h1>
+
+  <h2>Meu currículo com todas as minhas competêcias e informaçõ, feito com apenas HTML e CSS<h2>
